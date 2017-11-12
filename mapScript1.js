@@ -117,7 +117,9 @@ function initMap(coordinates){
 			}
 		});	
 	}
-coordinates = loadCoordinates(initMap);
+function startLoading() {
+	coordinates = loadCoordinates(initMap);
+}
 
 function styleFeature(feature) {
     var outlineWeight = 0.5, zIndex = 1;
