@@ -1,0 +1,42 @@
+[
+	{
+		"city/name": "lubango",
+		"country": "Angolia",
+		"affiliate": "MAF Canada",
+		"lat": -14.927638888888888,
+		"lon": 13.501555555555555,
+		"phone": "+244-261-221-888",
+		"email": "bookings@mafangola.com",
+		"website": "www.mafangola.com",
+	},
+	{
+		"city/name": "Bunia",
+		"country": "East Democratic Republic of the Congo",
+		"affiliate": "MAF US",
+		"lat": 1.56666672229767,
+		"lon": 30.2116661071777,
+		"phone": "+243-998-606-006 or +243-815-890-002",
+		"email": "EDRC-Bookings@maf.org",
+		"website": "https://www.maf.org/what-we-do/where-we-serve/drc"
+	},
+	{
+		"city/name": "Kinshasa",
+		"country": "West Democratic Republic of the Congo",
+		"affiliate": "MAF US",
+		"lat": -4.32433319091797,
+		"lon": 15.3341665267944,
+		"phone": "+243-851-578-573 or +243-821-829-291",
+		"email": "wdrc-bookings@maf.org",
+		"website": "https://www.maf.org/what-we-do/where-we-serve/drc"
+	},
+	{
+		"city/name": "Lubumbashi",
+		"country": "West Democratic Republic of the Congo",
+		"affiliate": "MAF US",
+		"lat": -11.6049995422363,
+		"lon": 27.5216674804688,
+		"phone": "+243-81-141-8533",
+		"email": "lub-bookings@maf.org",
+		"website": "https://www.maf.org/what-we-do/where-we-serve/drc"
+	}
+]
