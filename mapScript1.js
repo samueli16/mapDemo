@@ -71,8 +71,6 @@ function initMap(coordinates){
 			}setMarker(addListener);
 		}
 		
-		markerCluster = new MarkerClusterer(map, marker,
-         {imagePath: 'markerClustering/', minimumClusterSize: 15});
 	}
 	
 		map.data.setStyle(styleFeature);
