@@ -1,5 +1,4 @@
 info = [
-
 	{
 		"countryId": "United States of America",
 		"anchorLat": "38.897957",
@@ -14,10 +13,10 @@ info = [
 		"languageOfficial": "English",
 		"currency": "United States Dollar (USD)",
 		"numOfFamilyUnits": "1",
-		"familyUnits": 
+		"familyUnits":
 			[
-				{ 
-					"lastName": "Lind", 
+				{
+					"lastName": "Lind",
 					"displayName": "Matthew and Lisa Lind",
 					"photo": "MissionaryPhotos/USA/Lind.jpg",
 					"donationLink": "https://www.maf.org/lind#bodycontent5",
@@ -32,8 +31,8 @@ info = [
 					"photo": "https://www.maf.org/image/missionaries/abell.jpg",
 					"donationLink": "https://www.maf.org/abell#bodycontent5",
 					"pageLink": "https://www.maf.org/abell",
-					"hasBlog": false, 
-					"blogLink": null, 
+					"hasBlog": false,
+					"blogLink": null,
 					"prefield": false
 				},
 				{
@@ -42,8 +41,8 @@ info = [
 					"photo": "https://www.maf.org/image/6.-missionary-pages/Appleby.jpg",
 					"donationLink": "https://www.maf.org/appleby#bodycontent5",
 					"pageLink": "https://www.maf.org/appleby",
-					"hasBlog": false, 
-					"blogLink": null, 
+					"hasBlog": false,
+					"blogLink": null,
 					"prefield": false
 				},
 				{
@@ -52,11 +51,11 @@ info = [
 					"photo": "https://www.maf.org/image/6.-missionary-pages/arnold-2.png",
 					"donationLink": "https://www.maf.org/arnold#bodycontent5",
 					"pageLink": "https://www.maf.org/arnold",
-					"hasBlog": false, 
-					"blogLink": null, 
+					"hasBlog": false,
+					"blogLink": null,
 					"prefield": false
 				},
-				
+
 			]
 	},
 	{
@@ -76,10 +75,10 @@ info = [
 		"languageOfficial": "Dutch",
 		"currency": "Surinamese dollar (SRD)",
 		"numOfFamilyUnits": "1",
-		"familyUnits": 
+		"familyUnits":
 			[
-				{ 
-					"lastName": "Portillo", 
+				{
+					"lastName": "Portillo",
 					"displayName": "Juan Carlos and Johanna Portillo",
 					"photo": "MissionaryPhotos/Suriname/Portillo.jpg",
 					"donationLink": "https://www.maf.org/portillo#bodycontent5",
@@ -92,7 +91,7 @@ info = [
 	},
 	{
 		"countryId": "Brazil",
-		"anchorLat": "-15.7942", 
+		"anchorLat": "-15.7942",
 		"anchorLng": "-47.8825",
 		"countryNum": "2",
 		"countryImage": "CountryImages/Brazil.png",
@@ -100,17 +99,17 @@ info = [
 		"numOfBases": "1",
 		"bases":
 			[
-				{ "baseId": "Asas de Socorro" }	
+				{ "baseId": "Asas de Socorro" }
 			],
 		"population": "202,700,000",
 		"capital": "Brasilia",
 		"languageOfficial": "Portuguese",
 		"currency": "Real (BRL)",
 		"numOfFamilyUnits": "1",
-		"familyUnits": 
+		"familyUnits":
 			[
-				{ 
-					"lastName": "Ault", 
+				{
+					"lastName": "Ault",
 					"displayName": "Tim and Roxanne Ault",
 					"photo": "MissionaryPhotos/Brazil/Ault.jpg",
 					"donationLink": "https://www.maf.org/ault#bodycontent5",
@@ -120,8 +119,8 @@ info = [
 					"preField": false
 				}
 			]
-		
-	},	
+
+	},
 	{
 		"countryId": "Costa Rica",
 		"anchorLat": "9.9281",
@@ -139,10 +138,10 @@ info = [
 		"languageOfficial": "Spanish",
 		"currency": "Costa Rican Colón (C)",
 		"numOfFamilyUnits": "2",
-		"familyUnits": 
+		"familyUnits":
 			[
-				{ 
-					"lastName": "Sanchez", 
+				{
+					"lastName": "Sanchez",
 					"displayName": "Mauricio and Rosalia Sanchez",
 					"photo": "MissionaryPhotos/CostaRica/Sanchez.jpg",
 					"donationLink": "https://www.maf.org/sanchez#bodycontent5",
@@ -151,8 +150,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Rhoads", 
+				{
+					"lastName": "Rhoads",
 					"displayName": "Brad and Susan Rhoads",
 					"photo": "MissionaryPhotos/CostaRica/Rhoads.jpg",
 					"donationLink": "https://www.maf.org/rhoads#bodycontent5",
@@ -161,7 +160,7 @@ info = [
 					"blogLink": null,
 					"preField": false
 				}
-				
+
 			]
 	},
 	{
@@ -184,10 +183,10 @@ info = [
 		"languageOfficial": "French",
 		"currency": "Congolese Franc (CDF)",
 		"numOfFamilyUnits": "16",
-		"familyUnits": 
+		"familyUnits":
 			[
-				{ 
-					"lastName": "Hochstetler", 
+				{
+					"lastName": "Hochstetler",
 					"displayName": "Rod and Valerie Hochstetler",
 					"photo": "MissionaryPhotos/DRC/Hochstetler.jpg",
 					"donationLink": "https://www.maf.org/hochstetler#bodycontent5",
@@ -196,8 +195,8 @@ info = [
 					"blogLink": "http://hochstetlerheirways.blogspot.com/",
 					"preField": false
 				},
-				{ 
-					"lastName": "Jacobsson", 
+				{
+					"lastName": "Jacobsson",
 					"displayName": "David and Donna Jacobsson",
 					"photo": "MissionaryPhotos/DRC/Jacobsson.jpg",
 					"donationLink": "https://www.maf.org/jacobsson#bodycontent5",
@@ -206,8 +205,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Birkemo", 
+				{
+					"lastName": "Birkemo",
 					"displayName": "Nate and Terra Birkemo",
 					"photo": "MissionaryPhotos/DRC/Birkemo.jpg",
 					"donationLink": "https://www.maf.org/birkemo#bodycontent5",
@@ -216,8 +215,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Paul", 
+				{
+					"lastName": "Paul",
 					"displayName": "Chase and Gwendolyn Paul",
 					"photo": "MissionaryPhotos/DRC/Paul.jpg",
 					"donationLink": "https://www.maf.org/paul#bodycontent5",
@@ -226,8 +225,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Hale", 
+				{
+					"lastName": "Hale",
 					"displayName": "Stephen and Ruth Hale",
 					"photo": "MissionaryPhotos/DRC/Hale.jpg",
 					"donationLink": "https://www.maf.org/hale#bodycontent5",
@@ -236,8 +235,8 @@ info = [
 					"blogLink": "https://stephenandruth.wordpress.com/",
 					"preField": false
 				},
-				{ 
-					"lastName": "Shutts", 
+				{
+					"lastName": "Shutts",
 					"displayName": "Mike and Sharol Shutts",
 					"photo": "MissionaryPhotos/DRC/Shutts.jpg",
 					"donationLink": "https://www.maf.org/shutts#bodycontent5",
@@ -246,8 +245,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Harkonen", 
+				{
+					"lastName": "Harkonen",
 					"displayName": "Timo and Laura Harkonen",
 					"photo": "MissionaryPhotos/DRC/Harkonen.jpg",
 					"donationLink": "https://www.maf.org/harkonen#bodycontent5",
@@ -256,8 +255,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Cadd", 
+				{
+					"lastName": "Cadd",
 					"displayName": "Jon and Cher Cadd",
 					"photo": "MissionaryPhotos/DRC/Cadd.jpg",
 					"donationLink": "https://www.maf.org/cadd#bodycontent5",
@@ -266,8 +265,8 @@ info = [
 					"blogLink": "https://captainsblogafrica.wordpress.com/",
 					"preField": false
 				},
-				{ 
-					"lastName": "Pedersoon", 
+				{
+					"lastName": "Pedersoon",
 					"displayName": "Garth and Jody Pederson",
 					"photo": "MissionaryPhotos/DRC/Pederson.jpg",
 					"donationLink": "https://www.maf.org/pederson#bodycontent5",
@@ -276,8 +275,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "De Jongh", 
+				{
+					"lastName": "De Jongh",
 					"displayName": "Jonathan and Nicole De Jongh",
 					"photo": "MissionaryPhotos/DRC/DeJongh.jpg",
 					"donationLink": "https://www.maf.org/dejongh#bodycontent5",
@@ -286,8 +285,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Martin", 
+				{
+					"lastName": "Martin",
 					"displayName": "Joey and Kathleen Martin",
 					"photo": "MissionaryPhotos/DRC/Martin.jpg",
 					"donationLink": "https://www.maf.org/jmartin#bodycontent5",
@@ -296,8 +295,8 @@ info = [
 					"blogLink": "http://joeyandkathleen.blogspot.com/",
 					"preField": false
 				},
-				{ 
-					"lastName": "Dimon", 
+				{
+					"lastName": "Dimon",
 					"displayName": "Chad and Jamie Dimon",
 					"photo": "MissionaryPhotos/DRC/Dimon.jpg",
 					"donationLink": "https://www.maf.org/dimon#bodycontent5",
@@ -306,8 +305,8 @@ info = [
 					"blogLink": "https://dimonsintherough.com/",
 					"preField": false
 				},
-				{ 
-					"lastName": "Spann", 
+				{
+					"lastName": "Spann",
 					"displayName": "Kevin and Tasha Spann",
 					"photo": "MissionaryPhotos/DRC/Spann.jpg",
 					"donationLink": "https://www.maf.org/spann#bodycontent5",
@@ -316,8 +315,8 @@ info = [
 					"blogLink": "http://spann-ingtheglobe.blogspot.com/",
 					"preField": false
 				},
-				{ 
-					"lastName": "Strietzel", 
+				{
+					"lastName": "Strietzel",
 					"displayName": "Lary and Sheryl Strietzel",
 					"photo": "MissionaryPhotos/DRC/Strietzel.jpg",
 					"donationLink": "https://www.maf.org/strietzel#bodycontent5",
@@ -326,8 +325,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Petersen", 
+				{
+					"lastName": "Petersen",
 					"displayName": "David and Ashley Petersen",
 					"photo": "MissionaryPhotos/DRC/Petersen.jpg",
 					"donationLink": "https://www.maf.org/petersen#bodycontent5",
@@ -336,8 +335,8 @@ info = [
 					"blogLink": "https://davidashleypetersen.wordpress.com/",
 					"preField": false
 				},
-				{ 
-					"lastName": "Mbodwam", 
+				{
+					"lastName": "Mbodwam",
 					"displayName": "Emmanuel and Kahindo Mbodwam",
 					"photo": "MissionaryPhotos/DRC/Mbodwam.jpg",
 					"donationLink": "https://www.maf.org/mbodwam#bodycontent5",
@@ -346,7 +345,7 @@ info = [
 					"blogLink": null,
 					"preField": false
 				}
-				
+
 			]
 	},
 	{
@@ -367,10 +366,10 @@ info = [
 		"languageOfficial": "Spanish",
 		"currency": "Dollarized",
 		"numOfFamilyUnits": "2",
-		"familyUnits": 
+		"familyUnits":
 			[
-				{ 
-					"lastName": "Souza", 
+				{
+					"lastName": "Souza",
 					"displayName": "Marcos and Maddison Souza",
 					"photo": "MissionaryPhotos/Ecuador/Souza.jpg",
 					"donationLink": "https://www.maf.org/souza#bodycontent5",
@@ -379,8 +378,8 @@ info = [
 					"blogLink": "https://marcosandmaddie.com/",
 					"preField": false
 				},
-				{ 
-					"lastName": "Whitehead", 
+				{
+					"lastName": "Whitehead",
 					"displayName": "Dan and Tracey Whitehead",
 					"photo": "MissionaryPhotos/Ecuador/Whitehead.jpg",
 					"donationLink": "https://www.maf.org/whitehead#bodycontent5",
@@ -389,7 +388,7 @@ info = [
 					"blogLink": null,
 					"preField": false
 				}
-				
+
 			]
 	},
 	{
@@ -409,10 +408,10 @@ info = [
 		"languageOfficial": "Spanish",
 		"currency": "Mexican Peso (MXN)",
 		"numOfFamilyUnits": "2",
-		"familyUnits": 
+		"familyUnits":
 			[
-				{ 
-					"lastName": "Ross", 
+				{
+					"lastName": "Ross",
 					"displayName": "Mike and Joan Ross",
 					"photo": "MissionaryPhotos/Mexico/Ross.jpg",
 					"donationLink": "https://www.maf.org/ross#bodycontent5",
@@ -421,8 +420,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Weatherstone", 
+				{
+					"lastName": "Weatherstone",
 					"displayName": "Chuck and Susan Weatherstone",
 					"photo": "MissionaryPhotos/Mexico/Weatherstone.jpg",
 					"donationLink": "https://www.maf.org/weatherstone#bodycontent5",
@@ -431,7 +430,7 @@ info = [
 					"blogLink": null,
 					"preField": false
 				}
-				
+
 			]
 	},
 	{
@@ -451,10 +450,10 @@ info = [
 		"languageOfficial": "Haitian Kreyol, French",
 		"currency": "Gourde (HTG)",
 		"numOfFamilyUnits": "4",
-		"familyUnits": 
+		"familyUnits":
 			[
-				{ 
-					"lastName": "Carwell", 
+				{
+					"lastName": "Carwell",
 					"displayName": "David and Patricia Carwell",
 					"photo": "MissionaryPhotos/Hati/Carwell.jpg",
 					"donationLink": "https://www.maf.org/carwell#bodycontent5",
@@ -463,8 +462,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Simon", 
+				{
+					"lastName": "Simon",
 					"displayName": "David and Erin Simon",
 					"photo": "MissionaryPhotos/Hati/Simon.jpg",
 					"donationLink": "https://www.maf.org/simon#bodycontent5",
@@ -473,8 +472,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Weatherstone", 
+				{
+					"lastName": "Weatherstone",
 					"displayName": "Chuck and Susan Weatherstone",
 					"photo": "MissionaryPhotos/Mexico/Weatherstone.jpg",
 					"donationLink": "https://www.maf.org/weatherstone#bodycontent5",
@@ -483,8 +482,8 @@ info = [
 					"blogLink": null,
 					"preField": false
 				},
-				{ 
-					"lastName": "Weatherstone", 
+				{
+					"lastName": "Weatherstone",
 					"displayName": "Chuck and Susan Weatherstone",
 					"photo": "MissionaryPhotos/Mexico/Weatherstone.jpg",
 					"donationLink": "https://www.maf.org/weatherstone#bodycontent5",
@@ -493,7 +492,7 @@ info = [
 					"blogLink": null,
 					"preField": false
 				}
-				
+
 			]
 	}
 

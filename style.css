@@ -1,72 +1,84 @@
-body{
-	background-color: white;
-    	background-image: url("https://www.maf.org/view.image?id=6365");
-	background-repeat: no-repeat;
-	background-position:center bottom;
-	background-size:100% 75%;
-	
+body {
+  background-color: white;
+  background-image: url("https://www.maf.org/view.image?id=6365");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% 75%;
 }
-#theMap{
-	display: block;
-	margin: auto;
-	height: 500px;
-	width: 800px;
-	border: 3px white;
+
+#theMap {
+  display: block;
+  margin: auto;
+  height: 500px;
+  width: 800px;
+  border: 3px white;
 }
-h1{
-	text-align: center;
-	font-family: "Museo Sans","museo-sans",Tahoma,Helvetica,Arial,sans-serif;
- 	color: #00305e;
-     	font-size: 3.9em;
+
+h1 {
+  text-align: center;
+  font-family: "Museo Sans", "museo-sans", Tahoma, Helvetica, Arial, sans-serif;
+  color: #00305e;
+  font-size: 3.9em;
 }
-h2{
-	padding: 0;
-	margin: 0;
+
+h2 {
+  padding: 0;
+  margin: 0;
 }
-img{
-	width: 200px;
+
+img {
+  width: 200px;
 }
-.familyAndVideo{
-	text-align: center;
-	padding-top: 0;
+
+.familyAndVideo {
+  text-align: center;
+  padding-top: 0;
 }
-.countryInfo{
-	float: left;
-	display: block;
-	text-align: left;
-	padding-right: 5px;
+
+.countryInfo {
+  float: left;
+  display: block;
+  text-align: left;
+  padding-right: 5px;
 }
-.countryBorderImg{
-	float: left;
-	display: block;
-	text-align: left;
-	padding-left: 3px;
-	border-left: 1px white;
+
+.countryBorderImg {
+  float: left;
+  display: block;
+  text-align: left;
+  padding-left: 3px;
+  border-left: 1px white;
 }
-.infoBox{
-	border: 1px rgb(182, 193, 190);
+
+.infoBox {
+  border: 1px rgb(182, 193, 190);
 }
-.container{
-	padding: 5px;
-	margin: 0;
-	background-color: rgb(182, 193, 190);
+
+.container {
+  padding: 5px;
+  margin: 0;
+  background-color: rgb(182, 193, 190);
 }
-.missionaryPhoto{
-	margin-top: 5px;
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	border: 1px solid white;
+
+.missionaryPhoto {
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
 }
-.missionaryPhoto:hover{
-	border: 1px solid black;
+
+.missionaryPhoto:hover {
+  border: 1px solid black;
 }
-.tooltip .tooltiptext{
-	visibility: hidden;
-	text-align: center;
-	background-color: rgb(220,230,247);
-	border: 1px solid black;
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  text-align: center;
+  background-color: rgb(220, 230, 247);
+  border: 1px solid black;
 }
-.tooltip:hover .tooltiptext{
-	visibility: visible;
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
