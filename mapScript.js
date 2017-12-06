@@ -54,11 +54,8 @@ function initMap(coordinates) {
   var markers = [];
   var coordinate = [];
   var image = {
-    url: "home_airplane_icon.png",
-    size: new google.maps.Size(727, 363),
-    origin: new google.maps.Point(0, 0),
-    anchor: new google.maps.Point(20, 50),
-    scaledSize: new google.maps.Size(40, 50)
+    url: "BeautifulDot.png",
+    size: new google.maps.Size(10, 10)
   };
 
   if (coordinates != undefined) {
@@ -95,8 +92,14 @@ function initMap(coordinates) {
   }
 
   map.data.setStyle(styleFeature);
-  map.data.addListener('mouseover', mouseInToRegion);
-  map.data.addListener('mouseout', mouseOutOfRegion);
+  google.maps.event.addListener(map, 'zoom_changed', function(){
+	if(map.getZoom() >= 4){
+		map.data.setStyle(removeStyle);
+	}
+	else{
+		map.data.setStyle(styleFeature);
+	}
+  });
   map.data.loadGeoJson('countries.json');
 
   map.data.addListener('click', function(event) {
@@ -139,6 +142,16 @@ function initMap(coordinates) {
 
 function startLoading() {
   coordinates = loadCoordinates(initMap);
+}
+
+function removeStyle(feature){
+	
+	removeEventListener('mouseover', mouseInToRegion);
+	removeEventListener('mouseout', mouseOutOfRegion);
+	return{
+		strokeWeight: 0,
+		fillColor: 'hsla(0, 0%, 0%, 0)'
+	}
 }
 
 function styleFeature(feature) {
