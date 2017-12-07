@@ -152,7 +152,7 @@ function startLoading() {
 
 function removeStyle(feature){
 	
-	removeEventListener('mouseover', mouseInToRegionlert
+	removeEventListener('mouseover', mouseInToRegion);
 	removeEventListener('mouseout', mouseOutOfRegion);
 	return{
 		strokeWeight: 0,
