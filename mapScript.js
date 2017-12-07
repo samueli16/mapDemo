@@ -11,6 +11,7 @@ function loadCoordinates(callback) {
       coordinates = txtFile.responseText.split("\n");
     }
   }
+  countries = info;
   txtFile.onload = function() {
     callback(coordinates);
   };
@@ -90,8 +91,13 @@ function initMap(coordinates) {
       setMarker(addListener);
     }
   }
-
+  
   map.data.setStyle(styleFeature);
+  
+  map.data.addListener('mouseover', mouseInToRegion);
+  map.data.addListener('mouseout', mouseOutOfRegion);
+  map.data.loadGeoJson('countries.json');
+  
   google.maps.event.addListener(map, 'zoom_changed', function(){
 	if(map.getZoom() >= 4){
 		map.data.setStyle(removeStyle);
@@ -100,12 +106,14 @@ function initMap(coordinates) {
 		map.data.setStyle(styleFeature);
 	}
   });
-  map.data.loadGeoJson('countries.json');
+  
 
   map.data.addListener('click', function(event) {
 
     if (event.feature.getProperty('isServed')) {
       var infoId = event.feature.getProperty('infoReference');
+	  alert(infoId);
+	  alert(countries);
       var infoString = "<div class=\"container\"><h2>" + countries[infoId].countryId + "</h2><div class=\"topRow\"><div class=\"countryInfo\">";
       if (parseInt(countries[infoId].numOfBases) > 0) {
         infoString = infoString + ("<br><strong>Number of bases:</strong> " + countries[infoId].numOfBases);
@@ -155,6 +163,9 @@ function removeStyle(feature){
 }
 
 function styleFeature(feature) {
+	map.data.addListener('mouseover', mouseInToRegion);
+	map.data.addListener('mouseout', mouseOutOfRegion);
+	
   var outlineWeight = 0.5,
     zIndex = 1;
   if (feature.getProperty('state') === 'hover') {
@@ -169,7 +180,7 @@ function styleFeature(feature) {
         strokeWeight: outlineWeight,
         strokeColor: '#fff',
         zIndex: zIndex,
-        fillColor: 'hsla(237, 93%, 45%, 1)',
+        fillColor: '#a71930',
         fillOpacity: 0.75
       };
     }
