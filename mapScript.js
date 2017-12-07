@@ -92,7 +92,12 @@ function initMap(coordinates) {
     }
   }
   
-  map.data.setStyle(styleFeature);
+	if(map.getZoom() >= 4){
+		map.data.setStyle(removeStyle);
+	}
+	else{
+		map.data.setStyle(styleFeature);
+	}
   
   map.data.addListener('mouseover', mouseInToRegion);
   map.data.addListener('mouseout', mouseOutOfRegion);
