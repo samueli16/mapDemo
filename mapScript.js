@@ -112,8 +112,6 @@ function initMap(coordinates) {
 
     if (event.feature.getProperty('isServed')) {
       var infoId = event.feature.getProperty('infoReference');
-	  alert(infoId);
-	  alert(countries);
       var infoString = "<div class=\"container\"><h2>" + countries[infoId].countryId + "</h2><div class=\"topRow\"><div class=\"countryInfo\">";
       if (parseInt(countries[infoId].numOfBases) > 0) {
         infoString = infoString + ("<br><strong>Number of bases:</strong> " + countries[infoId].numOfBases);
@@ -154,7 +152,7 @@ function startLoading() {
 
 function removeStyle(feature){
 	
-	removeEventListener('mouseover', mouseInToRegion);
+	removeEventListener('mouseover', mouseInToRegionlert
 	removeEventListener('mouseout', mouseOutOfRegion);
 	return{
 		strokeWeight: 0,
