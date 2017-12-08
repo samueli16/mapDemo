@@ -120,6 +120,7 @@ function initMap(coordinates) {
 
     if (event.feature.getProperty('isServed')) {
       var infoId = event.feature.getProperty('infoReference');
+      // TODO use mustache.js or handlebars.js instead of string concatenation
       var infoString = "<div class=\"container\"><h2>" + countries[infoId].countryId + "</h2><div class=\"topRow\"><div class=\"countryInfo\">";
       if (parseInt(countries[infoId].numOfBases) > 0) {
         infoString = infoString + ("<br><strong>Number of bases:</strong> " + countries[infoId].numOfBases);
