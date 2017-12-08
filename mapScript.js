@@ -22,7 +22,10 @@ function initMap(coordinates) {
   var mapOptions = {
     zoom: 2,
     center: new google.maps.LatLng(0, 0),
-    mapTypeId: google.maps.MapTypeId.HYBRID
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    fullscreenControl: false,
+    mapTypeControl: false,
+    streetViewControl: false
   };
 
   map = new google.maps.Map(document.getElementById('theMap'), mapOptions);
