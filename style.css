@@ -1,16 +1,12 @@
 body{
 	background-color: white;
-	background-repeat: no-repeat;
-	background-position:center bottom;
-	background-size:100% 75%;
-	
 }
+
 #theMap{
 	display: block;
 	margin: auto;
 	height: 600px;
-	width: 900px;
-	border: 3px solid #747678;
+	width: 1100px;
 }
 
 #mainlogo{ 
@@ -22,13 +18,12 @@ body{
 
 h1{
 	text-align: center;
-	font-family: "Museo Sans","museo-sans",Tahoma,Helvetica,Arial,sans-serif;
+	font-family: Tahoma,Helvetica,Arial,sans-serif;
  	color: white;
      	font-size: 3em;
 		font-weight: 900;
 		letter-spacing: 1px;
 		text-transform: uppercase;
-		text-shadow: 0 0 7px rgba(2,2,0,.6);
 	margin: auto;
 	
 }
