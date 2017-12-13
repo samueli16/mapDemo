@@ -10,8 +10,9 @@ body{
 }
 
 #mainlogo{ 
-	width: 20%;
+	width: 100%;
     max-width: 300px;
+    height: auto;
 	margin-left: 300px;
 }
 
